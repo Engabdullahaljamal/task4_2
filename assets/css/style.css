@@ -130,8 +130,12 @@ p {
     margin-left: 175px;
 }
 
+.navbar ul .mar_hom {
+    padding-left: 60px;
+}
 
-.butt {
+.butt,
+.sec_butt {
     padding: 15px;
     background-color: rgb(0 174 255);
     border: none;
@@ -164,10 +168,18 @@ p {
     background-color: dodgerblue;
 }
 
-#instructor .butt:hover {
+#pricing .butt:hover,
+#instructor .butt:hover,
+#about_us .butt:hover {
     background-color: dodgerblue
 }
 
+#about_us .sec_butt:hover,
+#pricing .sec_butt:hover {
+    background-color: dodgerblue;
+    color: white;
+
+}
 
 
 .tit {
@@ -231,7 +243,8 @@ p {
 }
 
 .ins_con,
-#right_con {
+#right_con,
+#school_news {
     width: 100vw;
     height: max-content;
     background-color: rgb(248 249 250);
@@ -289,12 +302,6 @@ p {
 
 }
 
-
-/* position: absolute;
-    left: 750px;
-    bottom: 50px;
-} */
-
 .p_c {
     width: 500px;
     margin: 0px auto;
@@ -318,7 +325,7 @@ p {
 
 .card {
     border-color: #d4e3f7;
-
+    box-shadow: 1px 1px 1px 1px #e9e9ea;
 
 }
 
@@ -344,7 +351,6 @@ p {
     text-decoration: none;
     color: #136ad5;
     padding-left: 62px;
-
 }
 
 #right_con .card-body span {
@@ -392,17 +398,7 @@ p {
     padding: 90px 0px;
     padding-left: 80px;
     flex-wrap: wrap;
-    padding-bottom: 90px;
-    background-color: rgb(248 249 250);
-
-
 }
-
-
-
-
-
-
 
 .about_sq {
 
@@ -411,10 +407,6 @@ p {
     background-color: rgb(208 225 247);
     position: relative;
     border-radius: 3px;
-    /* flex-shrink: 0; */
-
-
-
 }
 
 #about_us .about_img {
@@ -428,14 +420,266 @@ p {
 
 }
 
-/* .about_con {
-    width: 600px;
-    height: 500px;
-
-} */
-
 #about_us h2 {
     margin-top: 0px;
+
+}
+
+.sec_butt {
+    background-color: white;
+    color: rgb(0 122 216);
+    border: 1px solid rgb(0 122 216);
+    margin-left: 5px;
+
+}
+
+.number_con {
+    display: flex;
+    gap: 5px;
+}
+
+#about_us .number_con p {
+    width: 100px;
+}
+
+#about_us .number_con .b_c {
+    color: #136ad5;
+    font-size: 16px;
+}
+
+#school_news h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#school_news .card {
+    border: none;
+    box-shadow: 1px 1px 1px 1px #e9e9ea;
+    height: 250px;
+    width: 470px;
+}
+
+#school_news .card img {
+    height: 250px;
+
+}
+
+#school_news h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Prata', serif;
+    color: rgb(46, 115, 203);
+    font-size: 18px;
+}
+
+#school_news .date {
+    color: rgb(202 202 202);
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+#school_news .b_c {
+    font-size: 13px;
+    text-decoration: none;
+    color: #136ad5
+}
+
+#pricing .container {
+    padding-bottom: 90px;
+
+}
+
+#pricing .card-body {
+
+    height: 260px;
+}
+
+#pricing .card {
+    margin-bottom: 90px;
+}
+
+#pricing h3 {
+    font-size: 22px;
+    color: #136ad5;
+}
+
+#pricing .butt {
+    background-color: #136ad5;
+
+}
+
+#pricing .row {
+    width: 992px;
+    margin: 0px auto;
+}
+
+#pricing a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#pricing p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#pricing span {
+    color: #7a7c92;
+    font-size: 16px;
+}
+
+
+#testimonials {
+    height: max-content;
+    background-color: rgb(248 249 250);
+    padding-bottom: 90px;
+
+
+
+}
+
+#carousel_img {
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.carousel-indicators {
+    top: 460px;
+}
+
+.carousel-indicators #carousel_s {
+    background-color: #7a7c92;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators #carousel_s.active {
+    background-color: #136ad5;
+}
+
+#Choose .choose_container {
+
+    padding-left: 150px;
+    padding-right: 75px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Choose .p_c span {
+    font-weight: bold;
+    color: black;
+}
+
+
+#choose_img_one {
+    height: 350px;
+    padding-top: 90px;
+
+}
+
+#choose_img_sec {
+    width: 195px;
+    height: 130px;
+}
+
+.blue_div {
+    height: 35px;
+    width: 500px;
+    background-color: #136ad5;
+}
+
+.img_text {
+    padding-top: 5px;
+    display: flex;
+    gap: 10px;
+    width: 500px;
+}
+
+footer {
+    width: 100vw;
+    height: max-content;
+    background-color: #136ad5;
+    padding: 90px 30px;
+}
+
+.footer_con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.footer_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.footer_card p {
+    max-width: 250px;
+}
+
+.social_m_con {
+    width: 280px;
+    display: flex;
+    gap: 5px;
+}
+
+.social_m_con a i {
+    color: black;
+}
+
+.white_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding-left: 7px;
+    padding-top: 3px;
+    color: black;
+}
+
+.off_color {
+    color: #6fb2ea;
+
+}
+
+.gallery {
+    display: flex;
+    width: max-content;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.gallery_img {
+    width: 90px;
+    height: 80px;
+}
+
+@media screen and (min-width:1030px) {
+
+    #best_education .container,
+    #right_con .container {
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    #Choose .choose_container {
+        gap: 0px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #school_news .container {
+        padding-left: 60px;
+    }
+
 
 }
 
@@ -445,12 +689,13 @@ p {
         padding-top: 15px;
     }
 
-
+    .navbar ul .mar_hom {
+        padding-left: 0px;
+    }
 
     .nn {
         display: flex;
         flex-direction: row;
-
     }
 
     .dropdown-menu .dropdown-item {
@@ -460,28 +705,13 @@ p {
     .dropdown-menu {
         width: 20px;
     }
-}
 
-@media screen and (max-width:660px) {
-    #about_us {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        padding-left: 0px;
+    #pricing .row {
+        width: 766px;
     }
 }
 
 @media screen and (max-width:940px) {
-    /* #about_us h2 {
-        font-size: 20px;
-
-    } */
-
-    /* #about_us {
-        padding-left: 50px;
-    } */
-
     #about_us p {
         width: 200px;
     }
@@ -489,34 +719,25 @@ p {
     .about_sq {
         width: 280px;
         height: 200px;
-
-
-
     }
 
     #about_us .about_img {
         width: 300px;
         height: 200px;
         right: 75px;
-
-
     }
 }
 
 @media screen and (max-width:767px) {
-
-
-
     h1 {
 
         width: 280px;
         font-size: 25px;
         font-weight: bold;
-
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .ul_s li a {
@@ -535,13 +756,10 @@ p {
 
     }
 
-
-
     .me-auto {
         top: 70px;
         position: absolute;
         margin-right: 10%;
-
         z-index: 5;
     }
 
@@ -556,20 +774,93 @@ p {
         border-radius: 10px;
         margin-top: 50px;
         margin-bottom: 50px;
-
-
     }
 
-    #instructor p,
-    #about_us p {
+
+    #instructor p {
         width: 200px;
     }
 
+    .my_card,
+    .card {
+        margin: 10px auto;
 
+
+    }
 
     #tomorrow .p_c {
         font-size: 13px;
     }
+
+    #pricing .btn-primary {
+        margin-top: 0px;
+    }
+
+    #pricing .row {
+        width: 298px;
+    }
+
+    #Choose .choose_container .p_c {
+        width: 400px;
+    }
+
+
+    #Choose .choose_container {
+        padding-left: 70px;
+        gap: 0px;
+    }
+
+    #Choose .blue_div,
+    #Choose .img_text,
+    #Choose #choose_img_one {
+        width: 400px;
+    }
+
+    #Choose .choose_container #choose_img_sec {
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    #school_news .container {
+        padding-left: 5rem;
+    }
+
+    .my_card {
+        margin-left: 3rem;
+    }
+
+    .card {
+        margin-left: 2rem;
+    }
+
+}
+
+@media screen and (max-width:669px) {
+    #about_us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding-left: 0px;
+    }
+
+    .sec_butt {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+@media screen and (min-width:550px)and (max-width:767px) {
+    #Choose .choose_container {
+        padding-left: 100px;
+    }
+
+
 }
 
 @media screen and (max-width:600px) {
@@ -577,16 +868,126 @@ p {
         margin-left: 85%;
     }
 
+    @media screen and (max-width:465px) {
+        .me-auto {
+            background-color: rgb(46, 115, 203);
+            right: 7px;
+
+        }
+
+        .hero_child {
+            height: max-content;
+        }
 
 
+
+        .ul_s li {
+            padding-top: 3px;
+            padding-bottom: 0px;
+            margin-right: 10px;
+        }
+
+        .ul_s {
+            flex-wrap: wrap;
+
+            justify-content: center;
+        }
+
+
+
+        header .tit {
+            top: 60%;
+        }
+
+        .btn {
+            margin-top: 280px;
+            position: absolute;
+            right: 5px;
+
+        }
+
+
+    }
+
+    @media screen and (max-width:575px) {
+        #school_news .card {
+            height: max-content;
+            width: 250px;
+            ;
+        }
+
+        #school_news .card img {
+            height: 264.56px;
+            width: 250px;
+
+        }
+    }
 
 }
 
-@media screen and (max-width:330px) {
-    #instructor p {
+@media screen and (max-width:523px) {
+    #Choose .p_c {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:519px) {
+    .ul_s li a {
+        font-size: 10px;
+    }
+
+    .nav {
+        gap: 3px;
+    }
+
+    #testimonials .p_c,
+
+    #best_education .p_c,
+    #right_con .p_c,
+    #tomorrow .p_c,
+    #pricing .p_c,
+    #school_news .p_c,
+    #Choose .p_c {
+        width: 280px;
+    }
+
+    #Choose .choose_container .p_c {
+        width: 280px;
+    }
+
+    #choose_img_sec,
+    #Choose .blue_div,
+    #Choose .img_text {
+        width: 280px;
+    }
+
+    #Choose #choose_img_one {
+        width: 280px;
+    }
+
+    #Choose .img_text {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #about_us {
+        padding-left: 15px;
+    }
+
+    #about_us .about_img {
+        width: 200px;
+        right: 30px;
+    }
+
+    #about_us .about_sq {
         width: 200px;
     }
 
+    #Choose .choose_container {
+        padding-left: 50px;
+        gap: 0px;
+    }
 }
 
 @media screen and (max-width:465px) {
@@ -614,8 +1015,6 @@ p {
         justify-content: center;
     }
 
-
-
     header .tit {
         top: 60%;
     }
@@ -626,58 +1025,63 @@ p {
         right: 5px;
 
     }
-
-
 }
 
-
-
-
-@media screen and (min-width:768px) and (max-width:991px) {
-
-
-    .my_card {
-        margin-left: 3rem;
-    }
-
-    .card {
-        margin-left: 2rem;
+@media screen and (max-width:370px) {
+    .gallery .gallery_img {
+        width: 70px;
+        height: 60px;
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:364px) {
 
-    .my_card,
-    .card {
-        margin: 10px auto;
+    #Choose .row {
 
-
-    }
-}
-
-@media screen and (max-width:519px) {
-    .ul_s li a {
-        font-size: 10px;
+        padding-left: 10px;
     }
 
-    .nav {
-        gap: 3px;
+    #Choose #choose_img_one,
+    #Choose #choose_img_sec,
+    #Choose .blue_div,
+    #Choose .img_text {
+        width: 250px;
     }
 
-    #best_education .p_c,
-    #right_con .p_c,
-    #tomorrow .p_c {
-        width: 280px;
+    #Choose .choose_container {
+        padding-left: 40px;
+        gap: 0px;
+    }
+
+    #Choose .choose_container .p_c {
+        width: 250px;
+    }
+
+    #right_con .card {
+        width: 200px;
     }
 
 
 
-}
-
-@media screen and (min-width:1030px) {
-
-    #best_education .container,
     #right_con .container {
-        padding-left: 3rem;
+        width: 250px;
+        margin-left: 0px;
     }
+
+    #about_us .number_con .b_c,
+    #about_us .number_con p {
+
+        font-size: 12px;
+    }
+
+    #about_us .number_con div {
+        width: 83px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    #instructor p {
+        width: 200px;
+    }
+
 }
