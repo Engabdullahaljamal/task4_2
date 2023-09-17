@@ -867,63 +867,25 @@ footer {
     #navbarSupportedContent {
         margin-left: 85%;
     }
-
-    @media screen and (max-width:465px) {
-        .me-auto {
-            background-color: rgb(46, 115, 203);
-            right: 7px;
-
-        }
-
-        .hero_child {
-            height: max-content;
-        }
-
-
-
-        .ul_s li {
-            padding-top: 3px;
-            padding-bottom: 0px;
-            margin-right: 10px;
-        }
-
-        .ul_s {
-            flex-wrap: wrap;
-
-            justify-content: center;
-        }
-
-
-
-        header .tit {
-            top: 60%;
-        }
-
-        .btn {
-            margin-top: 280px;
-            position: absolute;
-            right: 5px;
-
-        }
-
-
-    }
-
-    @media screen and (max-width:575px) {
-        #school_news .card {
-            height: max-content;
-            width: 250px;
-            ;
-        }
-
-        #school_news .card img {
-            height: 264.56px;
-            width: 250px;
-
-        }
-    }
-
 }
+
+
+
+@media screen and (max-width:575px) {
+    #school_news .card {
+        height: max-content;
+        width: 250px;
+        ;
+    }
+
+    #school_news .card img {
+        height: 264.56px;
+        width: 250px;
+
+    }
+}
+
+
 
 @media screen and (max-width:523px) {
     #Choose .p_c {
@@ -985,8 +947,40 @@ footer {
     }
 
     #Choose .choose_container {
-        padding-left: 60px;
+        padding-left: 70px;
         gap: 0px;
+    }
+}
+
+
+
+@media screen and (max-width:512px) {
+
+    .footer_con,
+    .footer_card {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social_m_con {
+
+        width: 200px;
+    }
+
+    .footer_mar {
+        padding-left: 35px;
+    }
+
+    .fo_ma {
+        width: 200px;
+    }
+
+    .gal_pa {
+        padding-left: 145px;
+    }
+
+    .pro_pa {
+        padding-left: 20px;
     }
 }
 
@@ -1032,6 +1026,11 @@ footer {
         width: 70px;
         height: 60px;
     }
+
+    .gal_pa {
+        padding-left: 112px;
+    }
+
 }
 
 @media screen and (max-width:364px) {
