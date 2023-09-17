@@ -873,16 +873,17 @@ footer {
 
 @media screen and (max-width:575px) {
     #school_news .card {
-        height: max-content;
-        width: 250px;
-        ;
+        height: 500px;
+        width: 280px;
     }
 
     #school_news .card img {
-        height: 264.56px;
-        width: 250px;
-
+        height: 250px;
+        width: 270px;
+        padding-left: 10px;
+        padding-top: 10px;
     }
+
 }
 
 
