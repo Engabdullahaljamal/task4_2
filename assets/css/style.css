@@ -7,6 +7,7 @@
 
 
 
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Merriweather', serif;
@@ -107,21 +108,22 @@ p {
 
 .hero {
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     position: relative;
 }
 
 .hero .f_photo {
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     position: absolute;
+    object-fit: cover;
 
 
 }
 
 .hero .hero_child {
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     position: absolute;
     background-color: rgb(46, 115, 203, 0.9);
 }
@@ -629,11 +631,18 @@ footer {
     gap: 5px;
 }
 
-.social_m_con a i {
-    color: black;
+.social_m_con a  {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.white_circle {
+/* .white_circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -641,12 +650,16 @@ footer {
     padding-left: 7px;
     padding-top: 3px;
     color: black;
-}
+} */
 
 .off_color {
-    color: #6fb2ea;
+    color: white;
 
 }
+.footer_mar{
+    color: white;
+}
+
 
 .gallery {
     display: flex;
@@ -819,7 +832,6 @@ footer {
     #Choose .choose_container #choose_img_sec {
         height: 200px;
     }
-
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -974,6 +986,7 @@ footer {
 
     .fo_ma {
         width: 200px;
+        text-align: center;
     }
 
     .gal_pa {
@@ -1084,4 +1097,8 @@ footer {
         width: 200px;
     }
 
+}
+
+img{
+    object-fit: cover !important;
 }
